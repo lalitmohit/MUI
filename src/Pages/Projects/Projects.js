@@ -14,7 +14,7 @@ import Aoushadhi from '../../Assets/Aoushadhi.png';
 import  Emotion from '../../Assets/Emotion.png';
 import TA from '../../Assets/TA.png';
 import Portfolio from '../../Assets/Portfolio.png';
-
+import EYE from '../../Assets/EYE.png';
 const Projects = () => {
 
     const { setTitle } = useTitle(); // Get the setTitle function from context
@@ -56,16 +56,16 @@ const Projects = () => {
             github:"https://github.com/lalitmohit/OpeLake-Website-by-DevDynamos",
             visit:"https://webwave-test.vercel.app/"
         },
-        {
-            name: "Structural Strength Prediction",
-            image: Gensec,
-            content: "I developed a machine learning model for predicting structural strength by utilizing features like cement, slag, fly ash, and age, and applied EDA techniques and OLS libraries for model enhancement.",
-            github:"https://github.com/lalitmohit/Structural_Strength_Prediction",
-            visit:"https://github.com/lalitmohit/Structural_Strength_Prediction"
-        },
+        // {
+        //     name: "Structural Strength Prediction",
+        //     image: Gensec,
+        //     content: "I developed a machine learning model for predicting structural strength by utilizing features like cement, slag, fly ash, and age, and applied EDA techniques and OLS libraries for model enhancement.",
+        //     github:"https://github.com/lalitmohit/Structural_Strength_Prediction",
+        //     visit:"https://github.com/lalitmohit/Structural_Strength_Prediction"
+        // },
         {
             name: "Eye Disease Prediction",
-            image: Gensec,
+            image: EYE,
             content: "I utilized ResNet, EfficientNet, Inception, and MobileNet neural network models to predict eye diseases, employing transfer learning techniques for improved accuracy and conducting thorough evaluations to identify the optimal predictive models.",
             github:"https://github.com/lalitmohit/Eye-Disease-Prediction",
             visit:"https://github.com/lalitmohit/Eye-Disease-Prediction"
@@ -95,8 +95,8 @@ const Projects = () => {
             name: "MY Portfolio",
             image: Portfolio,
             content: "I developed my portfolio using React and Material-UI, showcasing my projects and skills in a visually appealing, responsive design. This project demonstrates my expertise in front-end development, intuitive UI creation, and proficiency with modern web technologies.",
-            github:"https://github.com/lalitmohit/TA_Management_CSD_Frontend",
-            visit:"https://ta-management-csd-frontend.vercel.app"
+            github:"https://github.com/lalitmohit/MUI",
+            visit:"https://mui-seven-chi.vercel.app/"
         },
 
 
